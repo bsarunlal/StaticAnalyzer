@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
         //simply adding space
 
-        //Good
-
 
     }
 
