@@ -50,7 +50,7 @@ sonarqube {
         property "sonar.host.url", "http://localhost:9000"
         property "sonar.projectKey", "Arun.App_reviewer" // some shortcut name
         property "sonar.projectName", "My Data Binding"
-        property "sonar.projectVersion", AppVersion
+        property "sonar.projectVersion", "1.0"
 
         property "sonar.sourceEncoding", "UTF-8"
         property "sonar.sources", "src/main/java,src/main/res"
@@ -75,6 +75,17 @@ sonarqube {
         // path to lint reports
     }
 }
+
+import org.gradle.internal.os.OperatingSystem;
+
+/*task sonarComplete(type: Exec) {
+    workingDir "./"
+    def command = "../gradlew"
+    if (OperatingSystem.current().isWindows()) {
+        command = command + ".bat"
+    }
+    commandLine command, "clean", "assemble${Flavor}Debug", "lint${Flavor}Debug", "jacocoTest${Flavor}DebugUnitTestReport", "sonarqube"
+}*/
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
