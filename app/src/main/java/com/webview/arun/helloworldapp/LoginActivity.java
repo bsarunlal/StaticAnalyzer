@@ -353,7 +353,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     public void m2() { }
 
-    public void m7() { }
+    public void m8() { }
 
 }
 
