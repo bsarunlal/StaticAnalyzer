@@ -352,6 +352,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     public void EmptyMethod() { }
 
     public void EM3() { }
+    
+    public void EM4() { }
 
 }
 
