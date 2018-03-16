@@ -358,5 +358,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int ii =0;
         int jj=0;
     }
+     
+    //nEW METHOD added
+    public void N3() {
+        int ii =0;
+        int jj=0;
+    }
 }
 
