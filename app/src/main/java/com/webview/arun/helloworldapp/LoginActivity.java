@@ -373,5 +373,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
            int i =0;
         int j=0;
     }
+    
+    public void EM10() {
+           int i =0;
+        int j=0;
+    }
 }
 
