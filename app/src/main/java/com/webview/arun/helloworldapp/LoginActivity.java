@@ -356,7 +356,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int ii =0;
         int jj=0;
     }
-    
+     public void N4() {
+        int ii =0;
+        int jj=0;
+    }
     public void hello () {
     }
 }
