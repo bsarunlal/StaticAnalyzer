@@ -63,6 +63,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mLoginFormView;
 
     private boolean isUnsed;
+    
+    private boolean simply;
 
     public void method1() {
         
