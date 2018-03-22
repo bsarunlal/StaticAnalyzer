@@ -66,12 +66,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     
     private boolean simply;
 
-    public void method1() {
-        
-    }
-    
-    public void m2() {
-    }
+  protected void r1() {
+      int i=0;
+      //Need to work on this method
+  }
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
