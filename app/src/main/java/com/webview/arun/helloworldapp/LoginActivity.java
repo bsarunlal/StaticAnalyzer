@@ -64,12 +64,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isUnsed;
 
-    public void N1() {
-    }
+    private boolean test1;
     
-    public void N2() {
+    public void emptyMethod() {
+        int localVariable = 0;
     }
-    
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
