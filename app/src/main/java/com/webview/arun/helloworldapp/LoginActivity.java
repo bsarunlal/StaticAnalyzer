@@ -63,13 +63,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mLoginFormView;
 
     private boolean isUnsed;
-    
-    private boolean simply;
 
-  protected void r1() {
-      int i=0;
-      //Need to work on this method
-  }
+    private boolean test1;
+    
+    public void emptyMethod() {
+        int localVariable = 0;
+    }
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
