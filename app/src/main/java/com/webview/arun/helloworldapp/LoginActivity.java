@@ -70,6 +70,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int localVariable = 0;
     }
     
+    void m2() {
+    }
+    
+    void m3() {
+    }
+    
+    void m4() {
+        int i=0;
+        int j=0;
+        
+    }
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
