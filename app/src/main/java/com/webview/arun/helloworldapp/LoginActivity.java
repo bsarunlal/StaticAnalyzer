@@ -39,6 +39,7 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
+    public boolean notUsed;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -62,7 +63,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
-    private boolean isNotUsed;
+    private boolean isUnuse;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
