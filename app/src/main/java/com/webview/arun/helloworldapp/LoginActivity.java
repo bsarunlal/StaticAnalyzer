@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
-    private boolean isNotUsed;
+    private boolean isUnuse;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
