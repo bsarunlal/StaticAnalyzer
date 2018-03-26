@@ -62,22 +62,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
-    private boolean isUnsed;
-
-    private boolean test1;
-    
-    public void emptyMethod() {
-        int localVariable = 0;
-    }
-    
-    public void one() {
-    }
-    
-    public void two() {
-    }
-    
-    public void three() {
-    }
+    private boolean isNotUsed;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
