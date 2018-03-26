@@ -70,16 +70,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int localVariable = 0;
     }
     
-    void m2() {
+    public void one() {
     }
     
-    void m3() {
-    }
-    
-    void m4() {
-        int i=0;
-        int j=0;
-        
+    public void two() {
     }
     
     @Override
@@ -374,7 +368,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int ii =0;
         int jj=0;
     }
-    
+     public void N4() {
+        int ii =0;
+        int jj=0;
+    }
     public void hello () {
     }
 }
