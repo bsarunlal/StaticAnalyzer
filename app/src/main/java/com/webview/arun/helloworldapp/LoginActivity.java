@@ -40,6 +40,7 @@ import static android.Manifest.permission.READ_CONTACTS;
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     public boolean notUsed;
+    public boolean isOne;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
