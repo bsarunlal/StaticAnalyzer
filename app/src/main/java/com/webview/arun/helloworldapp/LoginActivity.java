@@ -41,6 +41,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     public boolean notUsed;
     public boolean isOne;
+    public boolean isTwo;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
