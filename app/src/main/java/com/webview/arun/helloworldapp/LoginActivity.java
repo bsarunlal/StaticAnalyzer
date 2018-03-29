@@ -28,20 +28,21 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 import static android.Manifest.permission.READ_CONTACTS;
+
 
 /**
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
-    public boolean notUsed;
-    public boolean isOne;
-    public boolean isTwo;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -97,7 +98,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
-    }
+   }
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
@@ -352,18 +353,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
     }
 
-    public void EmptyMethod() { }
-     
-    //nEW METHOD added
-    public void N3() {
-        int ii =0;
-        int jj=0;
-    }
-     public void N4() {
-        int ii =0;
-        int jj=0;
-    }
-    public void hello () {
+    @Override
+    public void onDetachedFromWindow() {
+        //super.onDetachedFromWindow();
+        Toast.makeText(getApplicationContext(),"17. onDetachedFromWindow()", Toast.LENGTH_SHORT).show();
     }
 }
+
 
