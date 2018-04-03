@@ -39,7 +39,6 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
-    public boolean notUsed;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -348,20 +347,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
         }
-    }
-
-    public void EmptyMethod() { }
-     
-    //nEW METHOD added
-    public void N3() {
-        int ii =0;
-        int jj=0;
-    }
-     public void N4() {
-        int ii =0;
-        int jj=0;
-    }
-    public void hello () {
     }
 }
 
