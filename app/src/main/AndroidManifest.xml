@@ -23,9 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <receiver android:name="MyStartServiceReceiver" android:exported="true"> </receiver>
-
     </application>
 
 </manifest>
