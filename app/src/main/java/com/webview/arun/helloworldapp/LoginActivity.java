@@ -355,8 +355,5 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         //super.onDetachedFromWindow();
         Toast.makeText(getApplicationContext(),"17. onDetachedFromWindow()", Toast.LENGTH_SHORT).show();
     }
-    
-    public void testMethod() {
-        //This is a dumpy function
 }
 
