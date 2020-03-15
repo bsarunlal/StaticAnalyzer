@@ -352,5 +352,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     public void firstCommit() {
 
     }
+
+    public void secondCommit() {
+        
+    }
 }
 
